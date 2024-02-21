@@ -7,7 +7,9 @@ body {
     background-color: #f2f2f2;
 }
 
-.add-todo-container {
+.add-todo-container,
+.todo-list-container,
+.completed-container {
     max-width: 600px;
     margin: 50px auto;
     background-color: #fff;
@@ -37,7 +39,8 @@ hr {
     border: 1px solid #ddd;
 }
 
-.todo-input-container {
+.todo-input-container,
+.todo-item {
     margin-bottom: 15px;
     margin-top: 20px;
     /* Düzenlenmiş */
@@ -47,6 +50,10 @@ hr {
     justify-content: space-between;
     /* Eşit aralık */
     align-items: center;
+    width: 100%;
+}
+
+.todo-list-items-container {
     width: 100%;
 }
 
@@ -73,4 +80,29 @@ input[type="text"] {
 
 .btn-submit:hover {
     background-color: #45a049;
+}
+
+
+.btn-delete {
+    background-color: #d30e0e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.btn-edit {
+    background-color: #0e5cc2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 270px;
+}
+
+.item-text {
+    margin-left: 100px;
 }
