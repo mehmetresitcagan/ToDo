@@ -4,70 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>ToDo App</title>
 </head>
 
 <body>
 
-    <div class="add-item-container">
+    <div class="add-todo-container">
 
         <div class="container-head">
-            <h2 class="section-title">ADD ITEM</h2>
+            <h2 class="section-title">ADD TODO</h2>
             <hr>
         </div>
 
-        <input type="text" id="new-todo" name="add-todo">
-        <button class="btn-add-todo">ADD</button>
-
-    </div>
-
-
-    <div class="todo-list-container">
-
-        <div class="container-head">
-            <h2 class="section-title">TODO LIST</h2>
-            <hr>
+        <div class="todo-input-container">
+            <input type="text" id="new-todo" name="new-todo" placeholder="New Todo">
+            <button class="btn-submit">Submit</button>
         </div>
 
-        <div class="todo-items-container">
-            <div class="todo-item" id="item1">
-                <button class="checkbox">done</button>
-                <p>this is a todo item1</p>
-                <button class="btn-edit">Edit</button>
-                <button class="btn-delete">Delete</button>
-            </div>
-            <div class="todo-item" id="item2">
-                <button class="checkbox">done</button>
-                <p>this is a todo item2</p>
-                <button class="btn-edit">Edit</button>
-                <button class="btn-delete">Delete</button>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="completed-container">
-        <div class="container-head">
-            <h2 class="section-title">COMPLETED</h2>
-            <hr>
-        </div>
-        <div class="completed-items-container">
-            <div class="completed-item" id="completed1">
-                <button class="checkbox">done</button>
-                <p>this is a completed item1</p>
-                <button class="btn-edit">Edit</button>
-                <button class="btn-delete">Delete</button>
-            </div>
-
-            <div class="completed-item" id="completed2">
-                <button class="checkbox">done</button>
-                <p>this is a completed item2</p>
-                <button class="btn-edit">Edit</button>
-                <button class="btn-delete">Delete</button>
-            </div>
-        </div>
-    </div>
     </div>
 
 </body>
