@@ -14,8 +14,8 @@ app.use('/api/v1/tasks' ,tasks);
 
 //// get all tasks
 //app.get('/api/v1/tasks', (req,res) => {});
-//// post a task
-//app.post('/api/v1/tasks/', (req,res) => {});
+//// create a task
+//app.post('/api/v1/tasks', (req,res) => {});
 //// get single task
 //app.get('/api/v1/tasks/:id', (req,res) => {});
 //// update task
